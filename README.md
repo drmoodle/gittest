@@ -1,17 +1,15 @@
-def procnew
-new_proc = Proc.new { return "I got here..." }
-new_proc.call
-return "...but not here."
-end
-def lambdaproc
-new_proc = lambda { return "You get here..." }
-new_proc.call
-return "And I got here!"
-end
-puts lambdaproc
-→
-And I got here!
-puts procnew
-→
-I got here...
-
+<head>
+<title>Popular Websites: Google</title>
+</head>
+<body>
+<h1>About Google</h1>
+<p>Google is best known for its search engine, although Google now offers a
+number of other services.</p>
+<p>Google’s mission is to organize the world’s information and make it
+universally accessible and useful.</p>
+<p>Its founders Larry Page and Sergey Brin started Google at Stanford
+University.</p>
+<p><a href=”http://www.Google.com/”>Click here to visit Google’s Web
+site.</a></p>
+</body>
+</html>
